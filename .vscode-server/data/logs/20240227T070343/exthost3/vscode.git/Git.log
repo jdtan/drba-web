@@ -1,0 +1,313 @@
+2024-02-27 07:13:48.951 [info] Log level: Info
+2024-02-27 07:13:48.951 [info] Validating found git in: "git"
+2024-02-27 07:13:48.951 [info] Using git "2.39.3" from "git"
+2024-02-27 07:13:48.951 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-27 07:13:48.951 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:13:48.951 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-27 07:13:48.951 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:13:48.951 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-27 07:13:48.951 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:13:48.953 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-27 07:13:48.954 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:13:48.976 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-27 07:13:48.976 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:13:49.002 [info] > git rev-parse --show-toplevel [10ms]
+2024-02-27 07:13:49.002 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:13:49.012 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-27 07:13:49.012 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:13:49.023 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-27 07:13:49.023 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:13:49.032 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-27 07:13:49.032 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:13:49.040 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-27 07:13:49.040 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:13:49.050 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-27 07:13:49.050 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:14:14.057 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-27 07:14:14.057 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:14:18.309 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-27 07:14:18.309 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:14:19.862 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-27 07:14:19.862 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:14:20.398 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-27 07:14:20.398 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:17:01.524 [info] > git rev-parse --show-toplevel [9ms]
+2024-02-27 07:17:01.527 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:17:04.250 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-27 07:17:04.250 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:17:12.744 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-27 07:17:12.744 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:19:41.598 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-27 07:19:41.598 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:19:44.110 [info] > git rev-parse --show-toplevel [12ms]
+2024-02-27 07:19:44.110 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:19:44.687 [info] > git rev-parse --show-toplevel [5ms]
+2024-02-27 07:19:44.687 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:19:46.064 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-27 07:19:46.064 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:19:46.955 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-27 07:19:46.955 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:25:16.434 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-27 07:25:16.434 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:36:12.692 [info] > git rev-parse --show-toplevel [29ms]
+2024-02-27 07:36:12.693 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:36:14.575 [info] > git rev-parse --show-toplevel [7ms]
+2024-02-27 07:36:14.575 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:36:55.845 [info] > git rev-parse --show-toplevel [9ms]
+2024-02-27 07:36:55.845 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:38:10.850 [info] > git rev-parse --show-toplevel [9ms]
+2024-02-27 07:38:10.850 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:42:05.261 [info] > git rev-parse --show-toplevel [5ms]
+2024-02-27 07:42:05.261 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-27 07:50:51.198 [info] > git rev-parse --show-toplevel [5ms]
+2024-02-27 07:50:51.212 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-02-27 07:50:51.228 [info] Open repository: /home/beta
+2024-02-27 07:50:51.262 [info] No remotes found in the git config file.
+2024-02-27 07:50:51.262 [info] > git config --get commit.template [22ms]
+2024-02-27 07:50:51.263 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-27 07:50:51.264 [warning] No such branch: master.
+2024-02-27 07:50:51.335 [info] > git status -z -uall [60ms]
+2024-02-27 07:50:51.428 [info] > git config --get commit.template [2ms]
+2024-02-27 07:50:51.442 [info] No remotes found in the git config file.
+2024-02-27 07:50:51.443 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-02-27 07:50:51.443 [warning] No such branch: master.
+2024-02-27 07:50:52.169 [info] > git status -z -uall [691ms]
+2024-02-27 07:50:52.170 [info] > git check-ignore -v -z --stdin [18ms]
+2024-02-27 07:50:52.794 [info] > git show --textconv :.usermin/changepass/recovery [36ms]
+2024-02-27 07:50:52.796 [info] > git ls-files --stage -- /home/beta/.usermin/changepass/recovery [5ms]
+2024-02-27 07:50:54.366 [info] No remotes found in the git config file.
+2024-02-27 07:50:54.366 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-02-27 07:50:54.367 [warning] No such branch: master.
+2024-02-27 07:50:54.367 [info] > git config --get commit.template [14ms]
+2024-02-27 07:50:54.405 [info] > git status -z -uall [29ms]
+2024-02-27 07:50:59.480 [info] > git config --get commit.template [1ms]
+2024-02-27 07:50:59.500 [info] No remotes found in the git config file.
+2024-02-27 07:50:59.503 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-02-27 07:50:59.503 [warning] No such branch: master.
+2024-02-27 07:50:59.573 [info] > git status -z -uall [48ms]
+2024-02-27 07:51:04.645 [info] > git config --get commit.template [2ms]
+2024-02-27 07:51:04.666 [info] No remotes found in the git config file.
+2024-02-27 07:51:04.666 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-02-27 07:51:04.667 [warning] No such branch: master.
+2024-02-27 07:51:04.711 [info] > git status -z -uall [25ms]
+2024-02-27 07:51:10.646 [info] No remotes found in the git config file.
+2024-02-27 07:51:10.647 [info] > git config --get commit.template [41ms]
+2024-02-27 07:51:10.649 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-02-27 07:51:10.649 [warning] No such branch: master.
+2024-02-27 07:51:10.717 [info] > git status -z -uall [35ms]
+2024-02-27 07:52:09.144 [info] No remotes found in the git config file.
+2024-02-27 07:52:09.145 [info] > git config --get commit.template [99ms]
+2024-02-27 07:52:09.148 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-02-27 07:52:09.148 [warning] No such branch: master.
+2024-02-27 07:52:09.192 [info] > git status -z -uall [26ms]
+2024-02-27 07:52:14.274 [info] > git config --get commit.template [1ms]
+2024-02-27 07:52:14.300 [info] No remotes found in the git config file.
+2024-02-27 07:52:14.300 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-02-27 07:52:14.300 [warning] No such branch: master.
+2024-02-27 07:52:14.357 [info] > git status -z -uall [28ms]
+2024-02-27 07:52:19.451 [info] No remotes found in the git config file.
+2024-02-27 07:52:19.452 [info] > git config --get commit.template [13ms]
+2024-02-27 07:52:19.453 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-27 07:52:19.453 [warning] No such branch: master.
+2024-02-27 07:52:19.491 [info] > git status -z -uall [28ms]
+2024-02-27 07:52:21.349 [info] > git ls-files --stage -- /home/beta/.usermin/changepass/recovery [3ms]
+2024-02-27 07:52:21.369 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [0ms]
+2024-02-27 07:52:21.471 [info] > git show --textconv :.usermin/changepass/recovery [5ms]
+2024-02-27 07:52:34.174 [info] No remotes found in the git config file.
+2024-02-27 07:52:34.175 [info] > git config --get commit.template [14ms]
+2024-02-27 07:52:34.176 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-27 07:52:34.176 [warning] No such branch: master.
+2024-02-27 07:52:34.212 [info] > git status -z -uall [24ms]
+2024-02-27 07:52:39.305 [info] No remotes found in the git config file.
+2024-02-27 07:52:39.305 [info] > git config --get commit.template [33ms]
+2024-02-27 07:52:39.306 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-27 07:52:39.307 [warning] No such branch: master.
+2024-02-27 07:52:39.399 [info] > git status -z -uall [36ms]
+2024-02-27 07:52:44.527 [info] No remotes found in the git config file.
+2024-02-27 07:52:44.528 [info] > git config --get commit.template [61ms]
+2024-02-27 07:52:44.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-27 07:52:44.529 [warning] No such branch: master.
+2024-02-27 07:52:44.578 [info] > git status -z -uall [28ms]
+2024-02-27 07:52:49.683 [info] No remotes found in the git config file.
+2024-02-27 07:52:49.709 [info] > git config --get commit.template [27ms]
+2024-02-27 07:52:49.711 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-02-27 07:52:49.711 [warning] No such branch: master.
+2024-02-27 07:52:49.759 [info] > git status -z -uall [30ms]
+2024-02-27 07:54:04.211 [info] > git config --get commit.template [1ms]
+2024-02-27 07:54:04.243 [info] No remotes found in the git config file.
+2024-02-27 07:54:04.244 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-02-27 07:54:04.244 [warning] No such branch: master.
+2024-02-27 07:54:04.312 [info] > git status -z -uall [52ms]
+2024-02-27 07:54:09.407 [info] > git config --get commit.template [1ms]
+2024-02-27 07:54:09.420 [info] No remotes found in the git config file.
+2024-02-27 07:54:09.422 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-27 07:54:09.422 [warning] No such branch: master.
+2024-02-27 07:54:09.463 [info] > git status -z -uall [30ms]
+2024-02-27 07:54:13.207 [info] > git ls-files --stage -- /home/beta/.usermin/changepass/recovery [3ms]
+2024-02-27 07:54:13.221 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [3ms]
+2024-02-27 07:54:13.309 [info] > git show --textconv :.usermin/changepass/recovery [5ms]
+2024-02-27 07:54:16.305 [info] > git config --get commit.template [18ms]
+2024-02-27 07:54:16.305 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-02-27 07:54:16.306 [warning] No such branch: master.
+2024-02-27 07:54:16.340 [info] > git status -z -uall [24ms]
+2024-02-27 07:54:21.429 [info] > git config --get commit.template [16ms]
+2024-02-27 07:54:21.430 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-27 07:54:21.430 [warning] No such branch: master.
+2024-02-27 07:54:21.475 [info] > git status -z -uall [28ms]
+2024-02-27 07:54:27.306 [info] > git config --get commit.template [2ms]
+2024-02-27 07:54:27.328 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-02-27 07:54:27.328 [warning] No such branch: master.
+2024-02-27 07:54:27.367 [info] > git status -z -uall [27ms]
+2024-02-27 07:54:32.432 [info] > git config --get commit.template [1ms]
+2024-02-27 07:54:32.448 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-02-27 07:54:32.449 [warning] No such branch: master.
+2024-02-27 07:54:32.489 [info] > git status -z -uall [25ms]
+2024-02-27 07:54:37.560 [info] > git config --get commit.template [15ms]
+2024-02-27 07:54:37.562 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-27 07:54:37.562 [warning] No such branch: master.
+2024-02-27 07:54:37.600 [info] > git status -z -uall [27ms]
+2024-02-27 07:54:42.672 [info] > git config --get commit.template [2ms]
+2024-02-27 07:54:42.696 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-02-27 07:54:42.696 [warning] No such branch: master.
+2024-02-27 07:54:42.770 [info] > git status -z -uall [39ms]
+2024-02-27 07:54:56.277 [info] > git config --get commit.template [18ms]
+2024-02-27 07:54:56.281 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-02-27 07:54:56.281 [warning] No such branch: master.
+2024-02-27 07:54:56.326 [info] > git status -z -uall [28ms]
+2024-02-27 07:54:57.465 [info] > git check-ignore -v -z --stdin [4ms]
+2024-02-27 07:55:00.769 [info] > git check-ignore -v -z --stdin [3ms]
+2024-02-27 07:55:01.471 [info] > git config --get commit.template [54ms]
+2024-02-27 07:55:01.488 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2024-02-27 07:55:01.488 [warning] No such branch: master.
+2024-02-27 07:55:01.598 [info] > git status -z -uall [67ms]
+2024-02-27 07:55:06.785 [info] > git config --get commit.template [99ms]
+2024-02-27 07:55:06.786 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-27 07:55:06.786 [warning] No such branch: master.
+2024-02-27 07:55:06.827 [info] > git status -z -uall [24ms]
+2024-02-27 07:55:08.314 [info] > git -c user.useConfigOnly=true commit --quiet [265ms]
+2024-02-27 07:55:08.315 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-02-27 07:55:08.345 [info] > git config --get-all user.name [2ms]
+2024-02-27 07:55:08.412 [info] > git config --get commit.template [34ms]
+2024-02-27 07:55:08.413 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-27 07:55:08.413 [warning] No such branch: master.
+2024-02-27 07:55:08.463 [info] > git status -z -uall [27ms]
+2024-02-27 07:55:12.617 [info] > git config --get commit.template [30ms]
+2024-02-27 07:55:12.618 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-02-27 07:55:12.618 [warning] No such branch: master.
+2024-02-27 07:55:12.695 [info] > git status -z -uall [44ms]
+2024-02-27 07:55:12.696 [info] > git ls-files --stage -- /home/beta/.usermin/changepass/recovery [3ms]
+2024-02-27 07:55:12.792 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [64ms]
+2024-02-27 07:55:13.386 [info] > git show --textconv :.usermin/changepass/recovery [4ms]
+2024-02-27 07:55:17.212 [info] > git -c user.useConfigOnly=true commit --quiet [15ms]
+2024-02-27 07:55:17.212 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-02-27 07:55:17.237 [info] > git config --get-all user.name [2ms]
+2024-02-27 07:55:17.288 [info] > git config --get commit.template [25ms]
+2024-02-27 07:55:17.289 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-27 07:55:17.289 [warning] No such branch: master.
+2024-02-27 07:55:17.357 [info] > git status -z -uall [27ms]
+2024-02-27 07:55:21.549 [info] > git config --get commit.template [38ms]
+2024-02-27 07:55:21.549 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-02-27 07:55:21.550 [warning] No such branch: master.
+2024-02-27 07:55:21.626 [info] > git status -z -uall [35ms]
+2024-02-27 07:55:21.678 [info] > git ls-files --stage -- /home/beta/.usermin/changepass/recovery [55ms]
+2024-02-27 07:55:21.707 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [2ms]
+2024-02-27 07:55:22.206 [info] > git show --textconv :.usermin/changepass/recovery [3ms]
+2024-02-27 07:55:39.140 [info] > git config --get commit.template [32ms]
+2024-02-27 07:55:39.141 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-27 07:55:39.141 [warning] No such branch: master.
+2024-02-27 07:55:39.198 [info] > git status -z -uall [30ms]
+2024-02-27 07:55:44.319 [info] > git config --get commit.template [34ms]
+2024-02-27 07:55:44.320 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-27 07:55:44.320 [warning] No such branch: master.
+2024-02-27 07:55:44.384 [info] > git status -z -uall [37ms]
+2024-02-27 07:55:49.482 [info] > git config --get commit.template [35ms]
+2024-02-27 07:55:49.484 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-02-27 07:55:49.484 [warning] No such branch: master.
+2024-02-27 07:55:49.541 [info] > git status -z -uall [31ms]
+2024-02-27 07:55:54.545 [info] > git check-ignore -v -z --stdin [5ms]
+2024-02-27 07:55:54.662 [info] > git config --get commit.template [33ms]
+2024-02-27 07:55:54.665 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-02-27 07:55:54.666 [warning] No such branch: master.
+2024-02-27 07:55:54.742 [info] > git status -z -uall [47ms]
+2024-02-27 07:55:58.581 [info] > git check-ignore -v -z --stdin [3ms]
+2024-02-27 07:55:59.862 [info] > git config --get commit.template [35ms]
+2024-02-27 07:55:59.863 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-02-27 07:55:59.863 [warning] No such branch: master.
+2024-02-27 07:55:59.917 [info] > git status -z -uall [23ms]
+2024-02-27 07:56:04.994 [info] > git config --get commit.template [14ms]
+2024-02-27 07:56:04.995 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-27 07:56:04.995 [warning] No such branch: master.
+2024-02-27 07:56:05.049 [info] > git status -z -uall [33ms]
+2024-02-27 07:56:10.150 [info] > git config --get commit.template [2ms]
+2024-02-27 07:56:10.169 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-02-27 07:56:10.169 [warning] No such branch: master.
+2024-02-27 07:56:10.222 [info] > git status -z -uall [33ms]
+2024-02-27 07:56:15.316 [info] > git config --get commit.template [16ms]
+2024-02-27 07:56:15.316 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-02-27 07:56:15.317 [warning] No such branch: master.
+2024-02-27 07:56:15.372 [info] > git status -z -uall [41ms]
+2024-02-27 07:56:20.453 [info] > git config --get commit.template [18ms]
+2024-02-27 07:56:20.454 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-02-27 07:56:20.454 [warning] No such branch: master.
+2024-02-27 07:56:20.513 [info] > git status -z -uall [40ms]
+2024-02-27 07:56:25.609 [info] > git config --get commit.template [16ms]
+2024-02-27 07:56:25.610 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-27 07:56:25.610 [warning] No such branch: master.
+2024-02-27 07:56:25.653 [info] > git status -z -uall [30ms]
+2024-02-27 07:56:30.334 [info] > git ls-files --stage -- /home/beta/.usermin/changepass/recovery [3ms]
+2024-02-27 07:56:30.358 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [3ms]
+2024-02-27 07:56:30.447 [info] > git show --textconv :.usermin/changepass/recovery [3ms]
+2024-02-27 07:56:30.727 [info] > git config --get commit.template [16ms]
+2024-02-27 07:56:30.728 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-27 07:56:30.728 [warning] No such branch: master.
+2024-02-27 07:56:30.767 [info] > git status -z -uall [24ms]
+2024-02-27 07:56:35.867 [info] > git config --get commit.template [6ms]
+2024-02-27 07:56:35.889 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-02-27 07:56:35.890 [warning] No such branch: master.
+2024-02-27 07:56:35.949 [info] > git status -z -uall [39ms]
+2024-02-27 07:56:37.784 [info] > git ls-files --stage -- /home/beta/.usermin/changepass/recovery [3ms]
+2024-02-27 07:56:37.805 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [3ms]
+2024-02-27 07:56:37.903 [info] > git show --textconv :.usermin/changepass/recovery [3ms]
+2024-02-27 07:56:40.607 [info] > git show --textconv :.git/COMMIT_EDITMSG [22ms]
+2024-02-27 07:56:40.609 [info] > git ls-files --stage -- /home/beta/.git/COMMIT_EDITMSG [4ms]
+2024-02-27 07:56:40.880 [info] > git check-ignore -v -z --stdin [3ms]
+2024-02-27 07:56:40.994 [info] > git ls-files --stage -- /home/beta/.git/COMMIT_EDITMSG [3ms]
+2024-02-27 07:56:41.133 [info] > git show --textconv :.git/COMMIT_EDITMSG [9ms]
+2024-02-27 08:00:16.775 [info] > git ls-files --stage -- /home/beta/.git/COMMIT_EDITMSG [3ms]
+2024-02-27 08:00:16.866 [info] > git show --textconv :.git/COMMIT_EDITMSG [4ms]
+2024-02-27 08:00:18.661 [info] > git ls-files --stage -- /home/beta/.git/COMMIT_EDITMSG [3ms]
+2024-02-27 08:00:18.767 [info] > git show --textconv :.git/COMMIT_EDITMSG [8ms]
+2024-02-27 08:00:36.737 [info] > git ls-files --stage -- /home/beta/.git/COMMIT_EDITMSG [4ms]
+2024-02-27 08:00:36.819 [info] > git show --textconv :.git/COMMIT_EDITMSG [1ms]
+2024-02-27 08:01:20.199 [info] > git ls-files --stage -- /home/beta/.git/COMMIT_EDITMSG [4ms]
+2024-02-27 08:01:20.280 [info] > git show --textconv :.git/COMMIT_EDITMSG [1ms]
+2024-02-27 08:01:21.819 [info] > git ls-files --stage -- /home/beta/.git/COMMIT_EDITMSG [4ms]
+2024-02-27 08:01:21.899 [info] > git show --textconv :.git/COMMIT_EDITMSG [3ms]
+2024-02-27 08:01:35.599 [info] > git ls-files --stage -- /home/beta/.git/COMMIT_EDITMSG [2ms]
+2024-02-27 08:01:35.681 [info] > git show --textconv :.git/COMMIT_EDITMSG [4ms]
+2024-02-27 08:02:05.001 [info] > git ls-files --stage -- /home/beta/.git/COMMIT_EDITMSG [5ms]
+2024-02-27 08:02:05.101 [info] > git show --textconv :.git/COMMIT_EDITMSG [2ms]
