@@ -63,3 +63,13 @@
 2024-02-27 07:13:45.901 [info] [<unknown>][181e1c95][ExtensionHostConnection] New connection established.
 2024-02-27 07:13:45.915 [info] [<unknown>][181e1c95][ExtensionHostConnection] <3521934> Launched Extension Host Process.
 2024-02-27 07:18:46.116 [info] [<unknown>][c962886e][ExtensionHostConnection] <3521299> Extension Host Process exited with code: 0, signal: null.
+2024-02-27 08:04:14.674 [info] Getting Manifest... eamodio.gitlens
+2024-02-27 08:04:15.746 [info] Installing extension: eamodio.gitlens
+2024-02-27 08:04:18.153 [warning] Extension signature verification failed with error 'ENOENT': eamodio.gitlens
+2024-02-27 08:04:19.153 [info] Extracted extension to file:///home/beta/.vscode-server/extensions/eamodio.gitlens-14.8.2: eamodio.gitlens
+2024-02-27 08:04:19.192 [info] Renamed to /home/beta/.vscode-server/extensions/eamodio.gitlens-14.8.2
+2024-02-27 08:04:19.211 [info] Extracting extension completed. eamodio.gitlens
+2024-02-27 08:04:19.220 [info] Extension installed successfully: eamodio.gitlens
+2024-02-27 11:11:14.168 [info] [<unknown>][181e1c95][ExtensionHostConnection] <3521934> Extension Host Process exited with code: 0, signal: null.
+2024-02-27 11:11:14.170 [info] Last EH closed, waiting before shutting down
+2024-02-27 11:16:14.172 [info] Last EH closed, shutting down

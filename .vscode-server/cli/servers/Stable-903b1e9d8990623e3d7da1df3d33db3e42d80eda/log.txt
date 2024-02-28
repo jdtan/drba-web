@@ -5,75 +5,54 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-b54d0f2a-bf63-4c04-9b59-90e3be329ff6
-Extension host agent listening on /tmp/code-b54d0f2a-bf63-4c04-9b59-90e3be329ff6
+Server bound to /tmp/code-5bac76d6-06dc-4a3e-8d7a-83df8f075955
+Extension host agent listening on /tmp/code-5bac76d6-06dc-4a3e-8d7a-83df8f075955
 
-[07:03:43] 
-
-
+[07:15:54] 
 
 
-[07:03:43] Extension host agent started.
-[07:03:43] Started initializing default profile extensions in extensions installation folder. file:///home/beta/.vscode-server/extensions
-[07:03:43] Completed initializing default profile extensions in extensions installation folder. file:///home/beta/.vscode-server/extensions
-[07:03:43] [<unknown>][4ff9856d][ExtensionHostConnection] New connection established.
-[07:03:43] [<unknown>][39dd7368][ManagementConnection] New connection established.
-[07:03:43] [<unknown>][4ff9856d][ExtensionHostConnection] <3520749> Launched Extension Host Process.
-rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
-stack trace: CodeExpectedError: Could not find pty on pty host
-    at A.U (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
-    at A.updateIcon (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:27592)
-    at U.<computed> (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
-    at Object.call (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
-    at $.s (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
-    at $.q (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
-    at a.value (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
-    at d.y (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
-    at d.fire (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
-    at process.ne (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
-    at process.emit (node:events:514:28)
-    at emit (node:internal/child_process:937:14)
-    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
-[07:03:47] Error [CodeExpectedError]: Could not find pty on pty host
-    at A.U (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
-    at A.updateIcon (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:27592)
-    at U.<computed> (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
-    at Object.call (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
-    at $.s (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
-    at $.q (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
-    at a.value (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
-    at d.y (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
-    at d.fire (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
-    at process.ne (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
-    at process.emit (node:events:514:28)
-    at emit (node:internal/child_process:937:14)
-    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
-rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
-stack trace: CodeExpectedError: Could not find pty on pty host
-    at A.U (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
-    at A.updateTitle (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
-    at U.<computed> (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
-    at Object.call (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
-    at $.s (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
-    at $.q (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
-    at a.value (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
-    at d.y (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
-    at d.fire (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
-    at process.ne (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
-    at process.emit (node:events:514:28)
-    at emit (node:internal/child_process:937:14)
-    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
-[07:03:47] Error [CodeExpectedError]: Could not find pty on pty host
-    at A.U (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
-    at A.updateTitle (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
-    at U.<computed> (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
-    at Object.call (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
-    at $.s (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
-    at $.q (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
-    at a.value (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
-    at d.y (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
-    at d.fire (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
-    at process.ne (/home/beta/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
-    at process.emit (node:events:514:28)
-    at emit (node:internal/child_process:937:14)
-    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+
+[07:15:54] Extension host agent started.
+[07:15:54] [<unknown>][c1606b87][ManagementConnection] New connection established.
+[07:15:54] [<unknown>][be444e04][ExtensionHostConnection] New connection established.
+[07:15:55] [<unknown>][be444e04][ExtensionHostConnection] <3621298> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[07:20:54] New EH opened, aborting shutdown
+[08:44:48] Getting Manifest... bmewburn.vscode-intelephense-client
+[08:44:49] Installing extension: bmewburn.vscode-intelephense-client
+[08:44:51] Extension signature verification failed with error 'ENOENT': bmewburn.vscode-intelephense-client
+[08:44:52] Extracted extension to file:///home/beta/.vscode-server/extensions/bmewburn.vscode-intelephense-client-1.10.2: bmewburn.vscode-intelephense-client
+[08:44:52] Renamed to /home/beta/.vscode-server/extensions/bmewburn.vscode-intelephense-client-1.10.2
+[08:44:52] Extracting extension completed. bmewburn.vscode-intelephense-client
+[08:44:52] Extension installed successfully: bmewburn.vscode-intelephense-client
+[08:45:05] Getting Manifest... devsense.phptools-vscode
+[08:45:06] Installing extension: devsense.phptools-vscode
+[08:45:06] Getting Manifest... devsense.composer-php-vscode
+[08:45:06] Getting Manifest... devsense.profiler-php-vscode
+[08:45:07] Getting Manifest... devsense.intelli-php-vscode
+[08:45:07] Installing extension: devsense.composer-php-vscode devsense.phptools-vscode
+[08:45:07] Installing extension: devsense.profiler-php-vscode devsense.phptools-vscode
+[08:45:07] Installing extension: devsense.intelli-php-vscode devsense.phptools-vscode
+[08:45:09] Extension signature verification failed with error 'ENOENT': devsense.composer-php-vscode
+[08:45:09] Extracted extension to file:///home/beta/.vscode-server/extensions/devsense.composer-php-vscode-1.45.15061: devsense.composer-php-vscode
+[08:45:09] Renamed to /home/beta/.vscode-server/extensions/devsense.composer-php-vscode-1.45.15061
+[08:45:09] Extracting extension completed. devsense.composer-php-vscode
+[08:45:10] Extension signature verification failed with error 'ENOENT': devsense.profiler-php-vscode
+[08:45:10] Extracted extension to file:///home/beta/.vscode-server/extensions/devsense.profiler-php-vscode-1.45.15061: devsense.profiler-php-vscode
+[08:45:10] Renamed to /home/beta/.vscode-server/extensions/devsense.profiler-php-vscode-1.45.15061
+[08:45:10] Extracting extension completed. devsense.profiler-php-vscode
+[08:55:32] Extension signature verification failed with error 'ENOENT': devsense.intelli-php-vscode
+[08:55:34] Extracted extension to file:///home/beta/.vscode-server/extensions/devsense.intelli-php-vscode-0.12.15062-linux-x64: devsense.intelli-php-vscode
+[08:55:34] Renamed to /home/beta/.vscode-server/extensions/devsense.intelli-php-vscode-0.12.15062-linux-x64
+[08:55:34] Extracting extension completed. devsense.intelli-php-vscode
+[08:55:37] Extension signature verification failed with error 'ENOENT': devsense.phptools-vscode
+[08:55:38] Extracted extension to file:///home/beta/.vscode-server/extensions/devsense.phptools-vscode-1.45.15061-linux-x64: devsense.phptools-vscode
+[08:55:38] Renamed to /home/beta/.vscode-server/extensions/devsense.phptools-vscode-1.45.15061-linux-x64
+[08:55:38] Extracting extension completed. devsense.phptools-vscode
+[08:55:38] Extension installed successfully: devsense.composer-php-vscode
+[08:55:38] Extension installed successfully: devsense.profiler-php-vscode
+[08:55:38] Extension installed successfully: devsense.intelli-php-vscode
+[08:55:38] Extension installed successfully: devsense.phptools-vscode
+[08:55:41] [<unknown>][be444e04][ExtensionHostConnection] <3621298><stderr> PHP Warning:  PHP Startup: Unable to load dynamic library 'mcrypt.so' (tried: /usr/lib64/php/modules/mcrypt.so (/usr/lib64/php/modules/mcrypt.so: undefined symbol: php_error_docref0), /usr/lib64/php/modules/mcrypt.so.so (/usr/lib64/php/modules/mcrypt.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+

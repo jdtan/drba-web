@@ -1,0 +1,125 @@
+.blogty-radio-image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 8px;
+}
+.blogty-radio-image img {
+    max-width: 100px;
+}
+.blogty-radio-image input[type="radio"] {
+    display: none;
+}
+.blogty-radio-image input[type="radio"] + label:hover {
+    opacity: 0.7;
+}
+.blogty-radio-image input[type="radio"]:checked + label {
+    border: 1px solid #3858e9;
+}
+#blogty-settings-metabox-container {
+    display: grid;
+    gap: 10px;
+}
+.blogty-meta-row {
+    display: grid;
+    align-items: center;
+    gap: 10px;
+}
+.blogty-meta-row + .blogty-meta-row {
+    margin-top: 24px;
+    padding-top: 14px;
+    border-top: 1px solid #ede0e0;
+}
+.blogty-meta-row.g-0 {
+    gap: 0;
+}
+.blogty-meta-row h4 {
+    margin: 0;
+}
+.blogty-meta-desc {
+    margin: 0;
+    color: #787878;
+}
+.blogty-meta-row select {
+    min-width: 30%;
+    width: auto;
+}
+.blogty-available-post-metas p {
+    margin: 0;
+}
+.blogty-meta-options-wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 20px 0;
+    border-top: 5px solid #3858e9;
+    background-color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+@media (min-width: 576px) {
+    .blogty-meta-options-wrapper {
+        flex-direction: row;
+    }
+}
+.blogty-meta-tab-header {
+    position: relative;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #3858e9;
+}
+@media (min-width: 576px) {
+    .blogty-meta-tab-header {
+        flex-direction: column;
+        flex-basis: 20%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
+    .blogty-meta-tab-content {
+        flex-basis: 80%;
+    }
+}
+.blogty-meta-tab-header:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: -20px;
+    bottom: -20px;
+    right: 0;
+    width: 1px;
+    background-color: #eeeeee;
+}
+.blogty-tab-title {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.blogty-tab-title.is-active {
+    background-color: #3858e9;
+}
+.blogty-tab-title.is-active h3 {
+    color: #fff;
+}
+.blogty-tab-title:not(.is-active):hover {
+    color: #3858e9;
+    background-color: #3858e910;
+}
+.blogty-tab-title h3 {
+    font-size: 13px;
+    margin: 0;
+}
+.blogty-meta-tab-content {
+    padding: 0 20px;
+    flex-grow: 1;
+}
+.blogty-tab-content {
+    display: none;
+}
+.blogty-tab-content.is-active {
+    display: block;
+}
