@@ -36,3 +36,6 @@ git push
 wget https://wordpress.org/latest.tar.gz
 ls
 tar -xzvf latest.tar.gz
+git status
+git add .
+git push
