@@ -39,3 +39,27 @@ tar -xzvf latest.tar.gz
 git status
 git add .
 git push
+git add .
+git push
+ls
+ls -a
+ls
+ls -a
+ls ~
+ls ~/.ssh
+chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys
+ls ~/.ssh -a
+cd etc
+ls
+vi /etc/ssh/sshd_config
+sudo vi /etc/ssh/sshd_config
+ssh-keygen -t rsa
+code .
+git push
+ls
+cd /etc/ssh
+ls
+vi ssh_config.d
+vi sshd_config
+sudo vi/etc/ssh/sshd_config
+exit

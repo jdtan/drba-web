@@ -1,0 +1,43 @@
+.tablepress {
+	--head-active-bg-color: #d9c8b4;
+}
+
+:root {
+	--swiper-theme-color: #d9c8b4;
+}
+
+.tablepress > .row-hover > tr:hover > * {
+	background-color: #d9c8b421;
+}
+
+.tablepress .sorting::after,
+.tablepress .sorting_desc::after,
+.tablepress .sorting_asc::after {
+	content: "";
+}
+
+.tablepress .sorting {
+	padding: var(--padding);
+}
+
+/* .tablepress-id-1 td,
+.tablepress-id-1 th {
+	text-align: center;
+} */
+/* .tablepress-id-1 td {
+	vertical-align: middle;
+} */
+.tablepress thead th {
+	background-color: white;
+	color: #313131; /* 	text-align: center; */
+}
+
+.tablepress .column-4 a {
+	background-color: #b49169;
+	color: white;
+	padding: .4em .9em;
+	border-radius: .5em;
+	text-decoration: none !important;
+	font-size: .85em;
+	text-align: right;
+}
