@@ -3,3 +3,19 @@
  * Template:   blogty
  * ...other header fields
  */
+
+p,
+p a,
+li,
+li a {
+  font-size: 16px;
+}
+
+.meta-text,
+.meta-text * {
+  font-size: 11px;
+}
+
+.category-events .post-author {
+  display: none;
+}
