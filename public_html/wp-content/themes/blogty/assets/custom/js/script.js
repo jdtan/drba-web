@@ -192,39 +192,37 @@ blogty.scrollToTop = {
 /* Sticky Menu
  **-----------------------------------------------------*/
 blogty.stickyMenu = {
+    stickyPoint: "",
+
     init: function () {
+        let self = this;
+
         const stickyElement = document.querySelector(
             ".blogty-primary-bar-row.sticky-menu"
         );
         if (stickyElement) {
-            let stickyPoint = stickyElement.offsetTop;
-            stickyElement.style.height = "auto";
-            let menuHeight = stickyElement.getBoundingClientRect().height;
-            if (menuHeight > 1) {
-                stickyElement.style.height =
-                    (menuHeight + 0.1).toFixed(2) + "px";
-            } else {
-                stickyElement.style.height = "auto";
-            }
+            self.stickyPoint = stickyElement.offsetTop;
+            self.updateMenuHeight(stickyElement);
             window.addEventListener("resize", function (event) {
-                stickyPoint = stickyElement.offsetTop;
-                stickyElement.style.height = "auto";
-                let menuHeight = stickyElement.getBoundingClientRect().height;
-                if (menuHeight > 1) {
-                    stickyElement.style.height =
-                        (menuHeight + 0.1).toFixed(2) + "px";
-                } else {
-                    stickyElement.style.height = "auto";
-                }
+                self.stickyPoint = stickyElement.offsetTop;
+                self.updateMenuHeight(stickyElement);
             });
-
             window.addEventListener("scroll", function (event) {
-                if (window.pageYOffset > stickyPoint) {
+                if (window.pageYOffset > self.stickyPoint) {
                     stickyElement.classList.add("has-menu-sticked");
                 } else {
                     stickyElement.classList.remove("has-menu-sticked");
                 }
             });
+        }
+    },
+    updateMenuHeight: function (stickyElement) {
+        stickyElement.style.height = "unset";
+        let menuHeight = stickyElement.getBoundingClientRect().height;
+        if (menuHeight > 1) {
+            stickyElement.style.height = (menuHeight + 0.1).toFixed(2) + "px";
+        } else {
+            stickyElement.style.height = "unset";
         }
     },
 };

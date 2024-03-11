@@ -5,7 +5,7 @@ Contributors: UnfoldWP
 Requires at least: 5.4
 Tested up to: 6.4
 Requires PHP: 5.6
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 
 Your all-in-one solution for a dynamic blog or magazine on WordPress
 
@@ -20,6 +20,12 @@ Blogty is your all-in-one solution for a dynamic blog or magazine on WordPress. 
 3. Click Activate to use your new theme right away.
 
 == Changelog ==
+
+= 1.0.4 - March 08 2024 =
+* Added some icons mapping for social menu 
+* Improved sticky menu 
+* Added home link on logo in the front page too 
+* Minor css fixes
 
 = 1.0.3 - February 27 2024 =
 * Added accent color option for "Popular Posts" widget

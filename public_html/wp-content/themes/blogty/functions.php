@@ -111,7 +111,7 @@ function blogty_setup() {
 			'width'                => 350,
 			'flex-width'           => true,
 			'flex-height'          => true,
-			'unlink-homepage-logo' => true,
+			'unlink-homepage-logo' => false,
 		)
 	);
 
@@ -244,7 +244,6 @@ function blogty_admin_scripts() {
 	wp_enqueue_style( 'blogty-admin-style', get_template_directory_uri() . '/assets/custom/css/admin' . $min . '.css', false, _S_VERSION );
 }
 add_action( 'admin_enqueue_scripts', 'blogty_admin_scripts' );
-
 
 /**
  * Load all required files.

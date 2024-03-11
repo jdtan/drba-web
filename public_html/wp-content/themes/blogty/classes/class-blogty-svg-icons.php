@@ -311,6 +311,11 @@ if ( ! class_exists( 'Blogty_SVG_Icons' ) ) {
 			'pocket'    => array(
 				'getpocket.com',
 			),
+			'telegram'    => array(
+				't.me',
+				'telegram.org',
+				'telegram.com',
+			),
 			'tiktok'    => array(
 				'tiktok.com',
 			),

@@ -19,3 +19,7 @@ li a {
 .category-events .post-author {
   display: none;
 }
+
+.table-borderless table td {
+  border-color: transparent;
+}
