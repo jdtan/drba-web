@@ -11090,3 +11090,587 @@ Stack trace:
 [11-Mar-2024 07:48:53 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /home/beta/public_html/wp-content/plugins/pull-firebase/index.php on line 41
 [11-Mar-2024 07:49:00 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /home/beta/public_html/wp-content/plugins/pull-firebase/index.php on line 41
 [11-Mar-2024 07:50:42 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/beta/public_html/wp-content/plugins/pull-firebase/index.php on line 42
+[14-Mar-2024 07:07:14 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /home/beta/public_html/wp-includes/post.php:4195
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(4195): array_filter()
+#1 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(53): wp_insert_post()
+#2 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): create_new_post()
+#3 /home/beta/public_html/wp-includes/class-wp-hook.php(324): show_page_menu()
+#4 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/beta/public_html/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 4195
+[14-Mar-2024 07:07:59 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /home/beta/public_html/wp-includes/post.php:4195
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(4195): array_filter()
+#1 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(53): wp_insert_post()
+#2 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): create_new_post()
+#3 /home/beta/public_html/wp-includes/class-wp-hook.php(324): show_page_menu()
+#4 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/beta/public_html/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 4195
+[14-Mar-2024 07:08:31 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /home/beta/public_html/wp-includes/post.php:4195
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(4195): array_filter()
+#1 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(53): wp_insert_post()
+#2 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): create_new_post()
+#3 /home/beta/public_html/wp-includes/class-wp-hook.php(324): show_page_menu()
+#4 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/beta/public_html/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 4195
+[14-Mar-2024 07:09:07 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /home/beta/public_html/wp-includes/post.php:4195
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(4195): array_filter()
+#1 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(53): wp_insert_post()
+#2 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): create_new_post()
+#3 /home/beta/public_html/wp-includes/class-wp-hook.php(324): show_page_menu()
+#4 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/beta/public_html/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 4195
+[14-Mar-2024 07:09:20 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /home/beta/public_html/wp-includes/post.php:4195
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(4195): array_filter()
+#1 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(53): wp_insert_post()
+#2 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): create_new_post()
+#3 /home/beta/public_html/wp-includes/class-wp-hook.php(324): show_page_menu()
+#4 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/beta/public_html/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 4195
+[14-Mar-2024 07:09:39 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /home/beta/public_html/wp-includes/post.php:4195
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(4195): array_filter()
+#1 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(53): wp_insert_post()
+#2 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): create_new_post()
+#3 /home/beta/public_html/wp-includes/class-wp-hook.php(324): show_page_menu()
+#4 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/beta/public_html/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 4195
+[14-Mar-2024 07:10:26 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /home/beta/public_html/wp-includes/post.php:4195
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(4195): array_filter()
+#1 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(53): wp_insert_post()
+#2 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): create_new_post()
+#3 /home/beta/public_html/wp-includes/class-wp-hook.php(324): show_page_menu()
+#4 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/beta/public_html/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 4195
+[14-Mar-2024 07:10:29 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /home/beta/public_html/wp-includes/post.php:4195
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(4195): array_filter()
+#1 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(53): wp_insert_post()
+#2 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): create_new_post()
+#3 /home/beta/public_html/wp-includes/class-wp-hook.php(324): show_page_menu()
+#4 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/beta/public_html/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 4195
+[14-Mar-2024 07:10:30 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /home/beta/public_html/wp-includes/post.php:4195
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(4195): array_filter()
+#1 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(53): wp_insert_post()
+#2 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): create_new_post()
+#3 /home/beta/public_html/wp-includes/class-wp-hook.php(324): show_page_menu()
+#4 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/beta/public_html/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 4195
+[14-Mar-2024 07:10:44 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /home/beta/public_html/wp-includes/post.php:4195
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(4195): array_filter()
+#1 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(53): wp_insert_post()
+#2 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): create_new_post()
+#3 /home/beta/public_html/wp-includes/class-wp-hook.php(324): show_page_menu()
+#4 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/beta/public_html/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 4195
+[17-Mar-2024 05:33:36 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /home/beta/public_html/wp-includes/post.php:4195
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(4195): array_filter()
+#1 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(53): wp_insert_post()
+#2 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): create_new_post()
+#3 /home/beta/public_html/wp-includes/class-wp-hook.php(324): show_page_menu()
+#4 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/beta/public_html/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 4195
+[17-Mar-2024 05:37:12 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /home/beta/public_html/wp-includes/post.php:4195
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(4195): array_filter()
+#1 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(53): wp_insert_post()
+#2 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): create_new_post()
+#3 /home/beta/public_html/wp-includes/class-wp-hook.php(324): show_page_menu()
+#4 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/beta/public_html/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 4195
+[17-Mar-2024 05:37:41 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /home/beta/public_html/wp-includes/post.php:4195
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(4195): array_filter()
+#1 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(53): wp_insert_post()
+#2 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): create_new_post()
+#3 /home/beta/public_html/wp-includes/class-wp-hook.php(324): show_page_menu()
+#4 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/beta/public_html/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 4195
+[17-Mar-2024 05:38:33 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /home/beta/public_html/wp-includes/post.php:4195
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(4195): array_filter()
+#1 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(53): wp_insert_post()
+#2 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): create_new_post()
+#3 /home/beta/public_html/wp-includes/class-wp-hook.php(324): show_page_menu()
+#4 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/beta/public_html/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 4195
+[17-Mar-2024 05:49:29 UTC] PHP Warning:  Undefined variable $firebase in /home/beta/public_html/wp-content/plugins/pull-firebase/index.php on line 58
+[17-Mar-2024 05:53:16 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /home/beta/public_html/wp-includes/post.php:4195
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(4195): array_filter()
+#1 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(53): wp_insert_post()
+#2 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): create_new_post()
+#3 /home/beta/public_html/wp-includes/class-wp-hook.php(324): show_page_menu()
+#4 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/beta/public_html/wp-admin/admin.php(259): do_action()
+#7 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 4195
+[17-Mar-2024 06:11:15 UTC] PHP Warning:  Undefined variable $create_new_post in /home/beta/public_html/wp-content/plugins/pull-firebase/index.php on line 60
+[17-Mar-2024 06:11:15 UTC] PHP Fatal error:  Uncaught Error: Value of type null is not callable in /home/beta/public_html/wp-content/plugins/pull-firebase/index.php:60
+Stack trace:
+#0 /home/beta/public_html/wp-includes/class-wp-hook.php(324): show_page_menu()
+#1 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/beta/public_html/wp-admin/admin.php(259): do_action()
+#4 {main}
+  thrown in /home/beta/public_html/wp-content/plugins/pull-firebase/index.php on line 60
+[17-Mar-2024 06:28:50 UTC] PHP Warning:  Attempt to read property "feeds" on null in /home/beta/public_html/wp-includes/post.php on line 5059
+[17-Mar-2024 06:28:50 UTC] PHP Warning:  Attempt to read property "use_trailing_slashes" on null in /home/beta/public_html/wp-includes/link-template.php on line 49
+[17-Mar-2024 06:28:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/beta/public_html/wp-includes/post.php:3019
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(7503): _count_posts_cache_key()
+#1 /home/beta/public_html/wp-includes/class-wp-hook.php(324): _transition_post_status()
+#2 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/beta/public_html/wp-includes/post.php(5390): do_action()
+#5 /home/beta/public_html/wp-includes/post.php(4650): wp_transition_post_status()
+#6 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): wp_insert_post()
+#7 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(63): create_new_post()
+#8 /home/beta/public_html/wp-settings.php(473): include_once('...')
+#9 /home/beta/public_html/wp-config.php(96): require_once('...')
+#10 /home/beta/public_html/wp-load.php(50): require_once('...')
+#11 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#12 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 3019
+[17-Mar-2024 06:29:07 UTC] PHP Warning:  Attempt to read property "feeds" on null in /home/beta/public_html/wp-includes/post.php on line 5059
+[17-Mar-2024 06:29:07 UTC] PHP Warning:  Attempt to read property "use_trailing_slashes" on null in /home/beta/public_html/wp-includes/link-template.php on line 49
+[17-Mar-2024 06:29:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/beta/public_html/wp-includes/post.php:3019
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(7503): _count_posts_cache_key()
+#1 /home/beta/public_html/wp-includes/class-wp-hook.php(324): _transition_post_status()
+#2 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/beta/public_html/wp-includes/post.php(5390): do_action()
+#5 /home/beta/public_html/wp-includes/post.php(4650): wp_transition_post_status()
+#6 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): wp_insert_post()
+#7 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(63): create_new_post()
+#8 /home/beta/public_html/wp-settings.php(473): include_once('...')
+#9 /home/beta/public_html/wp-config.php(96): require_once('...')
+#10 /home/beta/public_html/wp-load.php(50): require_once('...')
+#11 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#12 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 3019
+[17-Mar-2024 06:29:21 UTC] PHP Warning:  Attempt to read property "feeds" on null in /home/beta/public_html/wp-includes/post.php on line 5059
+[17-Mar-2024 06:29:21 UTC] PHP Warning:  Attempt to read property "use_trailing_slashes" on null in /home/beta/public_html/wp-includes/link-template.php on line 49
+[17-Mar-2024 06:29:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/beta/public_html/wp-includes/post.php:3019
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(7503): _count_posts_cache_key()
+#1 /home/beta/public_html/wp-includes/class-wp-hook.php(324): _transition_post_status()
+#2 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/beta/public_html/wp-includes/post.php(5390): do_action()
+#5 /home/beta/public_html/wp-includes/post.php(4650): wp_transition_post_status()
+#6 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): wp_insert_post()
+#7 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(63): create_new_post()
+#8 /home/beta/public_html/wp-settings.php(473): include_once('...')
+#9 /home/beta/public_html/wp-config.php(96): require_once('...')
+#10 /home/beta/public_html/wp-load.php(50): require_once('...')
+#11 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#12 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 3019
+[17-Mar-2024 06:30:04 UTC] PHP Warning:  Attempt to read property "feeds" on null in /home/beta/public_html/wp-includes/post.php on line 5059
+[17-Mar-2024 06:30:04 UTC] PHP Warning:  Attempt to read property "use_trailing_slashes" on null in /home/beta/public_html/wp-includes/link-template.php on line 49
+[17-Mar-2024 06:30:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/beta/public_html/wp-includes/post.php:3019
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(7503): _count_posts_cache_key()
+#1 /home/beta/public_html/wp-includes/class-wp-hook.php(324): _transition_post_status()
+#2 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/beta/public_html/wp-includes/post.php(5390): do_action()
+#5 /home/beta/public_html/wp-includes/post.php(4650): wp_transition_post_status()
+#6 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): wp_insert_post()
+#7 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(63): create_new_post()
+#8 /home/beta/public_html/wp-settings.php(473): include_once('...')
+#9 /home/beta/public_html/wp-config.php(96): require_once('...')
+#10 /home/beta/public_html/wp-load.php(50): require_once('...')
+#11 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#12 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 3019
+[17-Mar-2024 06:30:54 UTC] PHP Warning:  Attempt to read property "feeds" on null in /home/beta/public_html/wp-includes/post.php on line 5059
+[17-Mar-2024 06:30:54 UTC] PHP Warning:  Attempt to read property "use_trailing_slashes" on null in /home/beta/public_html/wp-includes/link-template.php on line 49
+[17-Mar-2024 06:30:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/beta/public_html/wp-includes/post.php:3019
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(7503): _count_posts_cache_key()
+#1 /home/beta/public_html/wp-includes/class-wp-hook.php(324): _transition_post_status()
+#2 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/beta/public_html/wp-includes/post.php(5390): do_action()
+#5 /home/beta/public_html/wp-includes/post.php(4650): wp_transition_post_status()
+#6 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): wp_insert_post()
+#7 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(63): create_new_post()
+#8 /home/beta/public_html/wp-settings.php(473): include_once('...')
+#9 /home/beta/public_html/wp-config.php(96): require_once('...')
+#10 /home/beta/public_html/wp-load.php(50): require_once('...')
+#11 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#12 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 3019
+[17-Mar-2024 06:32:47 UTC] PHP Warning:  Attempt to read property "feeds" on null in /home/beta/public_html/wp-includes/post.php on line 5059
+[17-Mar-2024 06:32:47 UTC] PHP Warning:  Attempt to read property "use_trailing_slashes" on null in /home/beta/public_html/wp-includes/link-template.php on line 49
+[17-Mar-2024 06:32:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/beta/public_html/wp-includes/post.php:3019
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(7503): _count_posts_cache_key()
+#1 /home/beta/public_html/wp-includes/class-wp-hook.php(324): _transition_post_status()
+#2 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/beta/public_html/wp-includes/post.php(5390): do_action()
+#5 /home/beta/public_html/wp-includes/post.php(4650): wp_transition_post_status()
+#6 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): wp_insert_post()
+#7 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(63): create_new_post()
+#8 /home/beta/public_html/wp-settings.php(473): include_once('...')
+#9 /home/beta/public_html/wp-config.php(96): require_once('...')
+#10 /home/beta/public_html/wp-load.php(50): require_once('...')
+#11 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#12 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 3019
+[17-Mar-2024 06:41:14 UTC] PHP Warning:  Attempt to read property "feeds" on null in /home/beta/public_html/wp-includes/post.php on line 5059
+[17-Mar-2024 06:41:14 UTC] PHP Warning:  Attempt to read property "use_trailing_slashes" on null in /home/beta/public_html/wp-includes/link-template.php on line 49
+[17-Mar-2024 06:41:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/beta/public_html/wp-includes/post.php:3019
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(7503): _count_posts_cache_key()
+#1 /home/beta/public_html/wp-includes/class-wp-hook.php(324): _transition_post_status()
+#2 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/beta/public_html/wp-includes/post.php(5390): do_action()
+#5 /home/beta/public_html/wp-includes/post.php(4650): wp_transition_post_status()
+#6 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): wp_insert_post()
+#7 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(63): create_new_post()
+#8 /home/beta/public_html/wp-settings.php(473): include_once('...')
+#9 /home/beta/public_html/wp-config.php(96): require_once('...')
+#10 /home/beta/public_html/wp-load.php(50): require_once('...')
+#11 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#12 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 3019
+[17-Mar-2024 06:41:22 UTC] PHP Warning:  Attempt to read property "feeds" on null in /home/beta/public_html/wp-includes/post.php on line 5059
+[17-Mar-2024 06:41:22 UTC] PHP Warning:  Attempt to read property "use_trailing_slashes" on null in /home/beta/public_html/wp-includes/link-template.php on line 49
+[17-Mar-2024 06:41:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/beta/public_html/wp-includes/post.php:3019
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(7503): _count_posts_cache_key()
+#1 /home/beta/public_html/wp-includes/class-wp-hook.php(324): _transition_post_status()
+#2 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/beta/public_html/wp-includes/post.php(5390): do_action()
+#5 /home/beta/public_html/wp-includes/post.php(4650): wp_transition_post_status()
+#6 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): wp_insert_post()
+#7 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(63): create_new_post()
+#8 /home/beta/public_html/wp-settings.php(473): include_once('...')
+#9 /home/beta/public_html/wp-config.php(96): require_once('...')
+#10 /home/beta/public_html/wp-load.php(50): require_once('...')
+#11 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#12 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 3019
+[17-Mar-2024 06:44:14 UTC] PHP Warning:  Attempt to read property "feeds" on null in /home/beta/public_html/wp-includes/post.php on line 5059
+[17-Mar-2024 06:44:14 UTC] PHP Warning:  Attempt to read property "use_trailing_slashes" on null in /home/beta/public_html/wp-includes/link-template.php on line 49
+[17-Mar-2024 06:44:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/beta/public_html/wp-includes/post.php:3019
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(7503): _count_posts_cache_key()
+#1 /home/beta/public_html/wp-includes/class-wp-hook.php(324): _transition_post_status()
+#2 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/beta/public_html/wp-includes/post.php(5390): do_action()
+#5 /home/beta/public_html/wp-includes/post.php(4650): wp_transition_post_status()
+#6 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): wp_insert_post()
+#7 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(63): create_new_post()
+#8 /home/beta/public_html/wp-settings.php(473): include_once('...')
+#9 /home/beta/public_html/wp-config.php(96): require_once('...')
+#10 /home/beta/public_html/wp-load.php(50): require_once('...')
+#11 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#12 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 3019
+[17-Mar-2024 06:47:00 UTC] PHP Warning:  Attempt to read property "feeds" on null in /home/beta/public_html/wp-includes/post.php on line 5059
+[17-Mar-2024 06:47:00 UTC] PHP Warning:  Attempt to read property "use_trailing_slashes" on null in /home/beta/public_html/wp-includes/link-template.php on line 49
+[17-Mar-2024 06:47:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/beta/public_html/wp-includes/post.php:3019
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(7503): _count_posts_cache_key()
+#1 /home/beta/public_html/wp-includes/class-wp-hook.php(324): _transition_post_status()
+#2 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/beta/public_html/wp-includes/post.php(5390): do_action()
+#5 /home/beta/public_html/wp-includes/post.php(4650): wp_transition_post_status()
+#6 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): wp_insert_post()
+#7 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(63): create_new_post()
+#8 /home/beta/public_html/wp-settings.php(473): include_once('...')
+#9 /home/beta/public_html/wp-config.php(96): require_once('...')
+#10 /home/beta/public_html/wp-load.php(50): require_once('...')
+#11 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#12 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 3019
+[17-Mar-2024 06:47:00 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 06:47:00 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 06:48:14 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /home/beta/public_html/wp-content/plugins/pull-firebase/index.php on line 60
+[17-Mar-2024 06:48:14 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 06:48:14 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 06:48:16 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /home/beta/public_html/wp-content/plugins/pull-firebase/index.php on line 60
+[17-Mar-2024 06:48:16 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 06:48:16 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 06:48:19 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /home/beta/public_html/wp-content/plugins/pull-firebase/index.php on line 60
+[17-Mar-2024 06:48:19 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 06:48:19 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 06:48:53 UTC] PHP Warning:  Attempt to read property "feeds" on null in /home/beta/public_html/wp-includes/post.php on line 5059
+[17-Mar-2024 06:48:53 UTC] PHP Warning:  Attempt to read property "use_trailing_slashes" on null in /home/beta/public_html/wp-includes/link-template.php on line 49
+[17-Mar-2024 06:48:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/beta/public_html/wp-includes/post.php:3019
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(7503): _count_posts_cache_key()
+#1 /home/beta/public_html/wp-includes/class-wp-hook.php(324): _transition_post_status()
+#2 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/beta/public_html/wp-includes/post.php(5390): do_action()
+#5 /home/beta/public_html/wp-includes/post.php(4650): wp_transition_post_status()
+#6 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): wp_insert_post()
+#7 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(64): create_new_post()
+#8 /home/beta/public_html/wp-settings.php(473): include_once('...')
+#9 /home/beta/public_html/wp-config.php(96): require_once('...')
+#10 /home/beta/public_html/wp-load.php(50): require_once('...')
+#11 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#12 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 3019
+[17-Mar-2024 06:48:53 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 06:48:53 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 06:51:16 UTC] PHP Warning:  Attempt to read property "feeds" on null in /home/beta/public_html/wp-includes/post.php on line 5059
+[17-Mar-2024 06:51:16 UTC] PHP Warning:  Attempt to read property "use_trailing_slashes" on null in /home/beta/public_html/wp-includes/link-template.php on line 49
+[17-Mar-2024 06:51:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/beta/public_html/wp-includes/post.php:3019
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(7503): _count_posts_cache_key()
+#1 /home/beta/public_html/wp-includes/class-wp-hook.php(324): _transition_post_status()
+#2 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/beta/public_html/wp-includes/post.php(5390): do_action()
+#5 /home/beta/public_html/wp-includes/post.php(4650): wp_transition_post_status()
+#6 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): wp_insert_post()
+#7 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(64): create_new_post()
+#8 /home/beta/public_html/wp-settings.php(473): include_once('...')
+#9 /home/beta/public_html/wp-config.php(96): require_once('...')
+#10 /home/beta/public_html/wp-load.php(50): require_once('...')
+#11 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#12 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 3019
+[17-Mar-2024 06:51:16 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 06:51:16 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 06:51:37 UTC] PHP Warning:  Attempt to read property "feeds" on null in /home/beta/public_html/wp-includes/post.php on line 5059
+[17-Mar-2024 06:51:37 UTC] PHP Warning:  Attempt to read property "use_trailing_slashes" on null in /home/beta/public_html/wp-includes/link-template.php on line 49
+[17-Mar-2024 06:51:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/beta/public_html/wp-includes/post.php:3019
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(7503): _count_posts_cache_key()
+#1 /home/beta/public_html/wp-includes/class-wp-hook.php(324): _transition_post_status()
+#2 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/beta/public_html/wp-includes/post.php(5390): do_action()
+#5 /home/beta/public_html/wp-includes/post.php(4650): wp_transition_post_status()
+#6 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(58): wp_insert_post()
+#7 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(64): create_new_post()
+#8 /home/beta/public_html/wp-settings.php(473): include_once('...')
+#9 /home/beta/public_html/wp-config.php(96): require_once('...')
+#10 /home/beta/public_html/wp-load.php(50): require_once('...')
+#11 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#12 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 3019
+[17-Mar-2024 06:51:37 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 06:51:37 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 06:53:10 UTC] PHP Warning:  Undefined variable $create_new_post in /home/beta/public_html/wp-content/plugins/pull-firebase/index.php on line 14
+[17-Mar-2024 06:53:10 UTC] PHP Warning:  Undefined array key 0 in /home/beta/public_html/wp-includes/plugin.php on line 1001
+[17-Mar-2024 06:53:10 UTC] PHP Warning:  Undefined array key 0 in /home/beta/public_html/wp-includes/plugin.php on line 1004
+[17-Mar-2024 06:53:11 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, no array or string given in /home/beta/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /home/beta/public_html/wp-settings.php(643): do_action()
+#3 /home/beta/public_html/wp-config.php(96): require_once('...')
+#4 /home/beta/public_html/wp-load.php(50): require_once('...')
+#5 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#6 {main}
+  thrown in /home/beta/public_html/wp-includes/class-wp-hook.php on line 324
+[17-Mar-2024 06:53:30 UTC] PHP Warning:  Undefined variable $create_new_post in /home/beta/public_html/wp-content/plugins/pull-firebase/index.php on line 62
+[17-Mar-2024 06:53:30 UTC] PHP Warning:  Undefined array key 0 in /home/beta/public_html/wp-includes/plugin.php on line 1001
+[17-Mar-2024 06:53:30 UTC] PHP Warning:  Undefined array key 0 in /home/beta/public_html/wp-includes/plugin.php on line 1004
+[17-Mar-2024 06:53:31 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, no array or string given in /home/beta/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /home/beta/public_html/wp-settings.php(643): do_action()
+#3 /home/beta/public_html/wp-config.php(96): require_once('...')
+#4 /home/beta/public_html/wp-load.php(50): require_once('...')
+#5 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#6 {main}
+  thrown in /home/beta/public_html/wp-includes/class-wp-hook.php on line 324
+[17-Mar-2024 06:53:33 UTC] PHP Warning:  Undefined variable $create_new_post in /home/beta/public_html/wp-content/plugins/pull-firebase/index.php on line 62
+[17-Mar-2024 06:53:33 UTC] PHP Warning:  Undefined array key 0 in /home/beta/public_html/wp-includes/plugin.php on line 1001
+[17-Mar-2024 06:53:33 UTC] PHP Warning:  Undefined array key 0 in /home/beta/public_html/wp-includes/plugin.php on line 1004
+[17-Mar-2024 06:53:33 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, no array or string given in /home/beta/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /home/beta/public_html/wp-settings.php(643): do_action()
+#3 /home/beta/public_html/wp-config.php(96): require_once('...')
+#4 /home/beta/public_html/wp-load.php(50): require_once('...')
+#5 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#6 {main}
+  thrown in /home/beta/public_html/wp-includes/class-wp-hook.php on line 324
+[17-Mar-2024 06:53:54 UTC] PHP Warning:  Attempt to read property "feeds" on null in /home/beta/public_html/wp-includes/post.php on line 5059
+[17-Mar-2024 06:53:54 UTC] PHP Warning:  Attempt to read property "use_trailing_slashes" on null in /home/beta/public_html/wp-includes/link-template.php on line 49
+[17-Mar-2024 06:53:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/beta/public_html/wp-includes/post.php:3019
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(7503): _count_posts_cache_key()
+#1 /home/beta/public_html/wp-includes/class-wp-hook.php(324): _transition_post_status()
+#2 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/beta/public_html/wp-includes/post.php(5390): do_action()
+#5 /home/beta/public_html/wp-includes/post.php(4650): wp_transition_post_status()
+#6 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(59): wp_insert_post()
+#7 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(64): create_new_post()
+#8 /home/beta/public_html/wp-settings.php(473): include_once('...')
+#9 /home/beta/public_html/wp-config.php(96): require_once('...')
+#10 /home/beta/public_html/wp-load.php(50): require_once('...')
+#11 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#12 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 3019
+[17-Mar-2024 06:53:54 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 06:53:54 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 06:54:07 UTC] PHP Warning:  Undefined variable $create_new_post in /home/beta/public_html/wp-content/plugins/pull-firebase/index.php on line 63
+[17-Mar-2024 06:54:07 UTC] PHP Warning:  Undefined array key 0 in /home/beta/public_html/wp-includes/plugin.php on line 1001
+[17-Mar-2024 06:54:07 UTC] PHP Warning:  Undefined array key 0 in /home/beta/public_html/wp-includes/plugin.php on line 1004
+[17-Mar-2024 06:54:08 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, no array or string given in /home/beta/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /home/beta/public_html/wp-settings.php(643): do_action()
+#3 /home/beta/public_html/wp-config.php(96): require_once('...')
+#4 /home/beta/public_html/wp-load.php(50): require_once('...')
+#5 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#6 {main}
+  thrown in /home/beta/public_html/wp-includes/class-wp-hook.php on line 324
+[17-Mar-2024 06:54:50 UTC] PHP Warning:  Undefined variable $show_page_menu in /home/beta/public_html/wp-content/plugins/pull-firebase/index.php on line 63
+[17-Mar-2024 06:54:50 UTC] PHP Warning:  Undefined array key 0 in /home/beta/public_html/wp-includes/plugin.php on line 1001
+[17-Mar-2024 06:54:50 UTC] PHP Warning:  Undefined array key 0 in /home/beta/public_html/wp-includes/plugin.php on line 1004
+[17-Mar-2024 06:54:51 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, no array or string given in /home/beta/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /home/beta/public_html/wp-settings.php(643): do_action()
+#3 /home/beta/public_html/wp-config.php(96): require_once('...')
+#4 /home/beta/public_html/wp-load.php(50): require_once('...')
+#5 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#6 {main}
+  thrown in /home/beta/public_html/wp-includes/class-wp-hook.php on line 324
+[17-Mar-2024 06:55:01 UTC] PHP Warning:  Undefined variable $create_new_post in /home/beta/public_html/wp-content/plugins/pull-firebase/index.php on line 83
+[17-Mar-2024 06:55:01 UTC] PHP Warning:  Undefined array key 0 in /home/beta/public_html/wp-includes/plugin.php on line 1001
+[17-Mar-2024 06:55:01 UTC] PHP Warning:  Undefined array key 0 in /home/beta/public_html/wp-includes/plugin.php on line 1004
+[17-Mar-2024 06:55:01 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, no array or string given in /home/beta/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /home/beta/public_html/wp-settings.php(643): do_action()
+#3 /home/beta/public_html/wp-config.php(96): require_once('...')
+#4 /home/beta/public_html/wp-load.php(50): require_once('...')
+#5 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#6 {main}
+  thrown in /home/beta/public_html/wp-includes/class-wp-hook.php on line 324
+[17-Mar-2024 07:10:02 UTC] PHP Warning:  Attempt to read property "feeds" on null in /home/beta/public_html/wp-includes/post.php on line 5059
+[17-Mar-2024 07:10:02 UTC] PHP Warning:  Attempt to read property "use_trailing_slashes" on null in /home/beta/public_html/wp-includes/link-template.php on line 49
+[17-Mar-2024 07:10:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/beta/public_html/wp-includes/post.php:3019
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(7503): _count_posts_cache_key()
+#1 /home/beta/public_html/wp-includes/class-wp-hook.php(324): _transition_post_status()
+#2 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/beta/public_html/wp-includes/post.php(5390): do_action()
+#5 /home/beta/public_html/wp-includes/post.php(4650): wp_transition_post_status()
+#6 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(59): wp_insert_post()
+#7 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(66): create_new_post()
+#8 /home/beta/public_html/wp-settings.php(473): include_once('...')
+#9 /home/beta/public_html/wp-config.php(96): require_once('...')
+#10 /home/beta/public_html/wp-load.php(50): require_once('...')
+#11 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#12 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 3019
+[17-Mar-2024 07:10:02 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 07:10:02 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 07:11:13 UTC] PHP Warning:  Attempt to read property "feeds" on null in /home/beta/public_html/wp-includes/post.php on line 5059
+[17-Mar-2024 07:11:13 UTC] PHP Warning:  Attempt to read property "use_trailing_slashes" on null in /home/beta/public_html/wp-includes/link-template.php on line 49
+[17-Mar-2024 07:11:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/beta/public_html/wp-includes/post.php:3019
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(7503): _count_posts_cache_key()
+#1 /home/beta/public_html/wp-includes/class-wp-hook.php(324): _transition_post_status()
+#2 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/beta/public_html/wp-includes/post.php(5390): do_action()
+#5 /home/beta/public_html/wp-includes/post.php(4650): wp_transition_post_status()
+#6 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(59): wp_insert_post()
+#7 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(66): create_new_post()
+#8 /home/beta/public_html/wp-settings.php(473): include_once('...')
+#9 /home/beta/public_html/wp-config.php(96): require_once('...')
+#10 /home/beta/public_html/wp-load.php(50): require_once('...')
+#11 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#12 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 3019
+[17-Mar-2024 07:11:13 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 07:11:13 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 07:13:18 UTC] PHP Warning:  Attempt to read property "feeds" on null in /home/beta/public_html/wp-includes/post.php on line 5059
+[17-Mar-2024 07:13:18 UTC] PHP Warning:  Attempt to read property "use_trailing_slashes" on null in /home/beta/public_html/wp-includes/link-template.php on line 49
+[17-Mar-2024 07:13:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/beta/public_html/wp-includes/post.php:3019
+Stack trace:
+#0 /home/beta/public_html/wp-includes/post.php(7503): _count_posts_cache_key()
+#1 /home/beta/public_html/wp-includes/class-wp-hook.php(324): _transition_post_status()
+#2 /home/beta/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/beta/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/beta/public_html/wp-includes/post.php(5390): do_action()
+#5 /home/beta/public_html/wp-includes/post.php(4650): wp_transition_post_status()
+#6 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(59): wp_insert_post()
+#7 /home/beta/public_html/wp-content/plugins/pull-firebase/index.php(66): create_new_post()
+#8 /home/beta/public_html/wp-settings.php(473): include_once('...')
+#9 /home/beta/public_html/wp-config.php(96): require_once('...')
+#10 /home/beta/public_html/wp-load.php(50): require_once('...')
+#11 /home/beta/public_html/wp-admin/admin.php(34): require_once('...')
+#12 {main}
+  thrown in /home/beta/public_html/wp-includes/post.php on line 3019
+[17-Mar-2024 07:13:18 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
+[17-Mar-2024 07:13:18 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /home/beta/public_html/wp-includes/functions.php on line 6031
