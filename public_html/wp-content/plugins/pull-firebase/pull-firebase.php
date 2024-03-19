@@ -18,6 +18,9 @@ class PullFirebasePlugin {
   function __construct() {
     // add_action('init', array($this, ));
     add_action('admin_menu', array($this, 'add_menu'));
+    add_action( 'admin_init', array($this, 'add_ajax_actions') );
+    // add_action('wp_ajax_get_fb_data', array($this, 'get_fb_data'));
+
 
   }
   function register() {
@@ -48,6 +51,29 @@ class PullFirebasePlugin {
     // create_new_post_function();
     echo '<form method="post" action=""><input type="submit" name="button1" id="firebase-plugin-button" class="button" value="new button" /></form>';
     
+  }
+  function add_ajax_actions() {
+    add_action('wp_ajax_nopriv_get_fb_data', array($this, 'get_fb_data'));
+    add_action('wp_ajax_get_fb_data', array($this, 'get_fb_data'));
+  }
+  function get_fb_data() {
+    echo 'in post: ';
+    if(isset($_POST)) {
+      $testing = $_POST['db_data'];
+      echo $testing;
+      echo "decoding ";
+      // $new = str_replace("\\", "",$testing);
+      // $new = json_decode($new);
+      // $new = json_decode(html_entity_decode(stripslashes($testing)));
+      // echo json_decode(html_entity_decode(stripslashes($testing), true));
+      $new = json_decode(json_encode($testing));
+      echo json_last_error();
+      echo $new;
+      die();
+    } else {
+      echo ' fail';
+    }
+    die();
   }
 }
 
@@ -92,14 +118,17 @@ function post_function() {
 add_action('init', 'post_function');
 
 
-function get_fb_data() {
-  if(isset($_GET)) {
-    $testing = $_GET['db_data'];
-    echo $testing;
-    die();
-  } else {
-    echo ' fail';
-  }
-}
-add_action('wp_ajax_get_fb_data', 'get_fb_data');
-
+  // add_action('wp_ajax_nopriv_get_fb_data', 'get_fb_data');
+  // add_action('wp_ajax_get_fb_data', 'get_fb_data');
+  // function get_fb_data() {
+  //   echo 'in post';
+  //   if(isset($_POST)) {
+  //     echo 'in in data ';
+  //     $testing = $_POST['db_data'];
+  //     echo $testing;
+  //     die();
+  //   } else {
+  //     echo ' fail';
+  //   }
+  //   die();
+  // }

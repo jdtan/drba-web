@@ -1,36 +1,52 @@
 (function ($) {
   "use strict";
   $(document).ready(function () {
-    // $("#firebase-plugin-button").on("click", function () {
-    //   // $("#firebase-plugin-button").on("click", function () {
-    //   // console.log("button pressed");
-    //   jQuery.post(
-    //     ajaxurl,
-    //     { action: "get_fb_data", db_data: "testing data" },
-    //     function (data) {
-    //       console.log("success??");
-    //     }
-    //   );
-    //   console.log("in function");
-    //   // $.ajax({
-    //   //   type: "POST",
-    //   //   url: "/wp-admin/admin-ajax.php",
-    //   //   data: {
-    //   //     action: "get_fb_data",
-    //   //     db_data: "testing data",
-    //   //   },
-    //   //   success: function (data) {
-    //   //     console.log("success");
-    //   //   },
-    //   // });
-    // });
+    const db = firebase.firestore();
+    const collectionName = "Newsfeed";
+    // const collectionName = "Events";
+
+    const readData = (dbCollection) => {
+      // db.collection(collectionName)
+      return dbCollection.get().then((querySnapshot) => {
+        let result = {};
+        querySnapshot.forEach((doc) => {
+          result[doc.id] = doc.data();
+        });
+        if (Object.keys(result).length === 0) {
+          result["error"] = "No results found.";
+        }
+        // appendData(collectionName, result, listElemnt)
+        console.log("results", result);
+        return result;
+      });
+    };
+    var fb_data = {};
+    if (collectionName) {
+      readData(db.collection(collectionName)).then((res) => {
+        // console.log("res", res);
+        for (const val of Object.values(res)) {
+          console.log(val);
+          console.log(val["News Name"]);
+          fb_data["news"] = val["News Name"];
+          break;
+        }
+      });
+    }
+
+    console.log("check", fb_data);
+
+    console.log(db);
     $("#firebase-plugin-button").click(function (e) {
-      console.log("clicked");
-      var ajaxurl = "<?php echo admin_url('admin-ajax.php'); ?>";
+      console.log("clicked", fb_data);
       $.ajax({
         url: "/wp-admin/admin-ajax.php",
-        type: "GET",
-        data: { action: "get_fb_data", db_data: "testing data" },
+        type: "POST",
+
+        data: {
+          action: "get_fb_data",
+          db_data: JSON.stringify({ data1: "data1", data2: "data2" }),
+          // db_data: JSON.stringify({ data1: "data1", data2: "data2" }),
+        },
       })
         .success(function (data) {
           console.log("success");
@@ -41,6 +57,7 @@
         .fail(function () {
           console.log("fail");
         });
+      e.preventDefault();
     });
     console.log("before post");
   });
