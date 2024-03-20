@@ -64,3 +64,4 @@ vi sshd_config
 sudo vi/etc/ssh/sshd_config
 exit
 git add .
+git push
