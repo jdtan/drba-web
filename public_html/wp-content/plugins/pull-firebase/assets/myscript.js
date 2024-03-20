@@ -20,14 +20,24 @@
         return result;
       });
     };
-    var fb_data = {};
+    const formatDate = (date) => {
+      let d = new Date(date.toDate());
+      return d.toLocaleDateString("en-us");
+      // return d;
+    };
+    var fb_data = [];
     if (collectionName) {
       readData(db.collection(collectionName)).then((res) => {
         // console.log("res", res);
         for (const val of Object.values(res)) {
           console.log(val);
           console.log(val["News Name"]);
-          fb_data["news"] = val["News Name"];
+          // fb_data["news"] = val["News Name"];
+          fb_data.push({
+            news: val["News Name"],
+            story: val["Story"],
+            date: formatDate(val["Time"]),
+          });
           break;
         }
       });
@@ -44,7 +54,7 @@
 
         data: {
           action: "get_fb_data",
-          db_data: JSON.stringify({ data1: "data1", data2: "data2" }),
+          db_data: JSON.stringify(fb_data),
           // db_data: JSON.stringify({ data1: "data1", data2: "data2" }),
         },
       })

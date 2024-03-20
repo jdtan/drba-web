@@ -49,32 +49,64 @@ class PullFirebasePlugin {
   {
     // echo '<button id="firebase-plugin-button" class="button-primary">press button</button>';
     // create_new_post_function();
-    echo '<form method="post" action=""><input type="submit" name="button1" id="firebase-plugin-button" class="button" value="new button" /></form>';
+    echo '<form method="post" action=""><input type="submit" name="button1" id="firebase-plugin-button" class="button" value="new button" /></form><div class="testclass"></div>';
     
   }
   function add_ajax_actions() {
     add_action('wp_ajax_nopriv_get_fb_data', array($this, 'get_fb_data'));
     add_action('wp_ajax_get_fb_data', array($this, 'get_fb_data'));
   }
+
+
+  function create_new_post_function($data)
+  {
+    // global $user_ID;
+    // Events: 5
+    // Newsfeed: 6
+
+    $new_post = array(
+      'post_title' => $data["news"],
+      // 'post_title' => 'My New Post',
+      'post_content' => $data["story"],
+      'post_status' => 'publish',
+      'post_date' => date('Y-m-d H:i:s', $data["date"]), // breaking
+      // 'post_date' => date($data["date"]),
+      // 'post_author' => $user_ID,
+      'post_type' => 'post',
+      'post_category' => [6]
+    );
+    $post_id = wp_insert_post($new_post);
+    // echo "created new post";
+    // echo $data["date"];
+
+  }
   function get_fb_data() {
-    echo 'in post: ';
     if(isset($_POST)) {
-      $testing = $_POST['db_data'];
-      echo $testing;
-      echo "decoding ";
-      // $new = str_replace("\\", "",$testing);
-      // $new = json_decode($new);
-      // $new = json_decode(html_entity_decode(stripslashes($testing)));
-      // echo json_decode(html_entity_decode(stripslashes($testing), true));
-      $new = json_decode(json_encode($testing));
-      echo json_last_error();
-      echo $new;
+      $post_data = $_POST['db_data'];
+      echo $post_data;
+      $decoded_data = json_decode((stripslashes($post_data)), true);
+      var_dump($decoded_data);
+      echo "decoded ";
+      // echo $decoded_data[0]["news"];
+      // echo $decoded_data[0]["story"];
+      // echo $decoded_data[0]["date"];
+
+      $data_obj = $decoded_data[0];
+
+      // // echo 'assign new var ';
+      // // echo $news;
+      
+      // // array($this, create_new_post_function());
+      $this->create_new_post_function($data_obj);
+      
+
       die();
     } else {
       echo ' fail';
     }
     die();
   }
+
 }
 
 if (class_exists('PullFirebasePlugin')) {
@@ -93,29 +125,29 @@ $icon_data_in_base64 = "PHN2ZwoKICB2aWV3Qm94PSIwIDAgMTAwIDEwMCIKPgogIDxwYXRoCiAg
 
 // Events: 5
 
-function create_new_post_function()
-{
-  // global $user_ID;
-  // $new_post = array(
-  //   'post_title' => 'My New Post',
-  //   'post_content' => 'new content here Lorem ipsum dolor sit amet...',
-  //   'post_status' => 'publish',
-  //   'post_date' => date('Y-m-d H:i:s'),
-  //   // 'post_author' => $user_ID,
-  //   'post_type' => 'post',
-  //   'post_category' => [5]
-  // );
-  // $post_id = wp_insert_post($new_post);
-  echo "created new post";
+// function create_new_post_function()
+// {
+//   // global $user_ID;
+//   // $new_post = array(
+//   //   'post_title' => 'My New Post',
+//   //   'post_content' => 'new content here Lorem ipsum dolor sit amet...',
+//   //   'post_status' => 'publish',
+//   //   'post_date' => date('Y-m-d H:i:s'),
+//   //   // 'post_author' => $user_ID,
+//   //   'post_type' => 'post',
+//   //   'post_category' => [5]
+//   // );
+//   // $post_id = wp_insert_post($new_post);
+//   echo "created new post";
 
-}
+// }
 
-function post_function() {
-  if (isset($_POST['button1'])) {
-    create_new_post_function();
-  }
-}
-add_action('init', 'post_function');
+// function post_function() {
+//   if (isset($_POST['button1'])) {
+//     create_new_post_function();
+//   }
+// }
+// add_action('init', 'post_function');
 
 
   // add_action('wp_ajax_nopriv_get_fb_data', 'get_fb_data');
