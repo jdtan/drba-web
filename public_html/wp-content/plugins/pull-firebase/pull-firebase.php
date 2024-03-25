@@ -69,13 +69,23 @@ class PullFirebasePlugin {
       // 'post_title' => 'My New Post',
       'post_content' => $data["story"],
       'post_status' => 'publish',
-      'post_date' => date('Y-m-d H:i:s', $data["date"]), // breaking
-      // 'post_date' => date($data["date"]),
+      'post_date' => $data["date"], // breaking
+      // 'post_date' => date('Y-m-d'),
       // 'post_author' => $user_ID,
       'post_type' => 'post',
-      'post_category' => [6]
+      'post_category' => [6] // newsfee
     );
     $post_id = wp_insert_post($new_post);
+    // $image_url = "https://upload.wikimedia.org/wikipedia/commons/b/b8/CTTBgate.jpg";
+    $image_url = $data["image"];
+    $url_with_pseudo_extension = $image_url . '?ext=.jpeg';
+    $post_image = media_sideload_image($url_with_pseudo_extension, $post_id, null, 'id');
+    // $post_image = media_sideload_image($data["image"], $post_id);
+    if (!is_wp_error($post_image)) {
+      set_post_thumbnail($post_id, $post_image);
+    }
+    // set_post_thumbnail($post_id, $post_image);
+
     // echo "created new post";
     // echo $data["date"];
 
@@ -83,21 +93,19 @@ class PullFirebasePlugin {
   function get_fb_data() {
     if(isset($_POST)) {
       $post_data = $_POST['db_data'];
-      echo $post_data;
       $decoded_data = json_decode((stripslashes($post_data)), true);
       var_dump($decoded_data);
-      echo "decoded ";
-      // echo $decoded_data[0]["news"];
-      // echo $decoded_data[0]["story"];
-      // echo $decoded_data[0]["date"];
 
-      $data_obj = $decoded_data[0];
+      $data_obj = $decoded_data;
 
       // // echo 'assign new var ';
       // // echo $news;
       
       // // array($this, create_new_post_function());
-      $this->create_new_post_function($data_obj);
+      foreach($data_obj as $curr_data) {
+        $this->create_new_post_function($curr_data);
+      }
+      // $this->create_new_post_function($data_obj);
       
 
       die();

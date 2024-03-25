@@ -22,7 +22,7 @@
     };
     const formatDate = (date) => {
       let d = new Date(date.toDate());
-      return d.toLocaleDateString("en-us");
+      return d.toLocaleDateString("en-CA");
       // return d;
     };
     var fb_data = [];
@@ -37,8 +37,9 @@
             news: val["News Name"],
             story: val["Story"],
             date: formatDate(val["Time"]),
+            image: val["imageLink"],
           });
-          break;
+          // break;
         }
       });
     }
@@ -48,6 +49,7 @@
     console.log(db);
     $("#firebase-plugin-button").click(function (e) {
       console.log("clicked", fb_data);
+      console.log("date", fb_data[0]["date"]);
       $.ajax({
         url: "/wp-admin/admin-ajax.php",
         type: "POST",
@@ -58,14 +60,16 @@
           // db_data: JSON.stringify({ data1: "data1", data2: "data2" }),
         },
       })
-        .success(function (data) {
+        .success(function (res) {
           console.log("success");
         })
-        .done(function () {
-          console.log("done");
-        })
-        .fail(function () {
+        .fail(function (res) {
           console.log("fail");
+          console.log(res);
+        })
+        .done(function (res) {
+          console.log("done");
+          console.log(res);
         });
       e.preventDefault();
     });
