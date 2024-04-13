@@ -8,18 +8,19 @@ p,
 p a,
 li,
 li a {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .meta-text,
 .meta-text * {
-  font-size: 11px;
+    font-size: 11px;
 }
 
 .category-events .post-author {
-  display: none;
+    display: none;
 }
 
 .table-borderless table td {
-  border-color: transparent;
+    border-color: transparent;
 }
+

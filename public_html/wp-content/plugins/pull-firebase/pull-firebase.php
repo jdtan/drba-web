@@ -13,85 +13,143 @@ if (!defined('ABSPATH')) {
   die();
 }
 
-class PullFirebasePlugin {
+class PullFirebasePlugin
+{
   // methods
-  function __construct() {
+  function __construct()
+  {
     // add_action('init', array($this, ));
     add_action('admin_menu', array($this, 'add_menu'));
-    add_action( 'admin_init', array($this, 'add_ajax_actions') );
+    add_action('admin_init', array($this, 'add_ajax_actions'));
     // add_action('wp_ajax_get_fb_data', array($this, 'get_fb_data'));
 
 
   }
-  function register() {
+
+  function register()
+  {
     add_action('admin_enqueue_scripts', array($this, 'enqueue'));
   }
-  function activate() {
+
+  function activate()
+  {
     // generate a CPT
-    // flush rewrite rules 
-  }
-  function deactivate() {
     // flush rewrite rules
   }
-  function uninstall() {
-    // delete CPT
-    // delete all the plugin data 
+
+  function deactivate()
+  {
+    // flush rewrite rules
   }
-  function enqueue() {
+
+  function uninstall()
+  {
+    // delete CPT
+    // delete all the plugin data
+  }
+
+  function enqueue()
+  {
     wp_enqueue_style('mypluginstyle', plugins_url('/assets/mystyle.css', __FILE__));
     wp_enqueue_script('mypluginscript', plugins_url('/assets/myscript.js', __FILE__));
   }
+
   function add_menu()
   {
     add_menu_page('Firebase Post', 'Firebase Post', 'administrator', 'firebase_post', array($this, 'show_page_menu'), '', 30.1);
   }
+
   function show_page_menu()
   {
     // echo '<button id="firebase-plugin-button" class="button-primary">press button</button>';
     // create_new_post_function();
-    echo '<form method="post" action=""><input type="submit" name="button1" id="firebase-plugin-button" class="button" value="new button" /></form><div class="testclass"></div>';
-    
+    echo '<form method="post" action=""><input type="submit" name="button1" id="firebase-plugin-button" class="button" value="month old button" /></form><div class="testclass"></div>';
+
   }
-  function add_ajax_actions() {
+
+  function add_ajax_actions()
+  {
     add_action('wp_ajax_nopriv_get_fb_data', array($this, 'get_fb_data'));
     add_action('wp_ajax_get_fb_data', array($this, 'get_fb_data'));
   }
 
+  function format_post_content($online, $date, $time, $group, $going, $likes, $desc, $link = "", $location = "")
+  {
+    $parent_class = "block-editor-block-list__block wp-block has-child-selected wp-block-columns block-editor-block-list__layout wp-container-13 is-layout-flex wp-block-columns-is-layout-flex is-nowrap";
+    $column_class = "block-editor-block-list__block wp-block block-core-columns wp-block-column block-editor-block-list__layout is-layout-flow wp-block-column-is-layout-flow";
 
+    $location_label = $online ? "Link" : "Location";
+    $location_value = $online ? $link : $location;
+
+    return '
+            <div data-type="core/columns" data-title="Columns" class="' . $parent_class . '">
+                <div class="' . $column_class . '" style="flex-basis: 33.33%;">
+                    <h2>Details</h2>
+                    <p>Date: ' . $date . '</p>
+                    <p>Time: ' . $time . '</p>
+                    <p>' . $location_label . ': ' . make_clickable($location_value) . '</p>
+                    <p>Group: ' . $group . ' </p>
+                    <p>Going: ' . $going . '</p>
+                    <p>Likes: ' . $likes . '</p>
+
+                </div>
+                <div class="' . $column_class . '" style="flex-basis: 66.66%;">
+                    <h2>Description</h2>
+                    <p> ' . make_clickable($desc) . '</p>
+                </div>
+            </div>';
+  }
+  // top
+//block-editor-block-list__block wp-block has-child-selected wp-block-columns block-editor-block-list__layout wp-container-13 is-layout-flex wp-block-columns-is-layout-flex is-nowrap
+//block-editor-block-list__block wp-block block-core-columns is-selected wp-block-column block-editor-block-list__layout is-layout-flow wp-block-column-is-layout-flow
+//block-editor-block-list__block wp-block block-core-columns wp-block-column block-editor-block-list__layout is-layout-flow wp-block-column-is-layout-flow
   function create_new_post_function($data)
   {
     // global $user_ID;
-    // Events: 5
-    // Newsfeed: 6
+
 
     $new_post = array(
-      'post_title' => $data["news"],
-      // 'post_title' => 'My New Post',
-      'post_content' => $data["story"],
+//      'post_title' => $data["news"],
+//      'post_content' => make_clickable($data["story"]),
+//      'post_status' => 'publish',
+//      'post_date' => $data["date"], // breaking
+//      // 'post_author' => $user_ID,
+//      'post_type' => 'post',
+
+      'post_title' => $data["name"],
+      'post_content' => $this->format_post_content(
+        $data["online"],
+        $data["date"],
+        $data["time"],
+        $data["group"],
+        $data["going"],
+        $data["likes"],
+        $data["description"],
+        $data["link"],
+        $data["location"]
+      ),
+
       'post_status' => 'publish',
-      'post_date' => $data["date"], // breaking
-      // 'post_date' => date('Y-m-d'),
+//        'post_date' => $data["date"], // breaking
       // 'post_author' => $user_ID,
       'post_type' => 'post',
-      'post_category' => [6] // newsfee
+      'post_category' => [$data["category"]], // uncategorized
+      'comment_status' => 'closed'
     );
     $post_id = wp_insert_post($new_post);
-    // $image_url = "https://upload.wikimedia.org/wikipedia/commons/b/b8/CTTBgate.jpg";
     $image_url = $data["image"];
     $url_with_pseudo_extension = $image_url . '?ext=.jpeg';
     $post_image = media_sideload_image($url_with_pseudo_extension, $post_id, null, 'id');
-    // $post_image = media_sideload_image($data["image"], $post_id);
     if (!is_wp_error($post_image)) {
       set_post_thumbnail($post_id, $post_image);
     }
-    // set_post_thumbnail($post_id, $post_image);
 
-    // echo "created new post";
-    // echo $data["date"];
 
   }
-  function get_fb_data() {
-    if(isset($_POST)) {
+
+  function get_fb_data()
+  {
+    if (isset($_POST)) {
       $post_data = $_POST['db_data'];
       $decoded_data = json_decode((stripslashes($post_data)), true);
       var_dump($decoded_data);
@@ -100,13 +158,13 @@ class PullFirebasePlugin {
 
       // // echo 'assign new var ';
       // // echo $news;
-      
+
       // // array($this, create_new_post_function());
-      foreach($data_obj as $curr_data) {
+      foreach ($data_obj as $curr_data) {
         $this->create_new_post_function($curr_data);
       }
       // $this->create_new_post_function($data_obj);
-      
+
 
       die();
     } else {
@@ -158,17 +216,20 @@ $icon_data_in_base64 = "PHN2ZwoKICB2aWV3Qm94PSIwIDAgMTAwIDEwMCIKPgogIDxwYXRoCiAg
 // add_action('init', 'post_function');
 
 
-  // add_action('wp_ajax_nopriv_get_fb_data', 'get_fb_data');
-  // add_action('wp_ajax_get_fb_data', 'get_fb_data');
-  // function get_fb_data() {
-  //   echo 'in post';
-  //   if(isset($_POST)) {
-  //     echo 'in in data ';
-  //     $testing = $_POST['db_data'];
-  //     echo $testing;
-  //     die();
-  //   } else {
-  //     echo ' fail';
-  //   }
-  //   die();
-  // }
+// add_action('wp_ajax_nopriv_get_fb_data', 'get_fb_data');
+// add_action('wp_ajax_get_fb_data', 'get_fb_data');
+// function get_fb_data() {
+//   echo 'in post';
+//   if(isset($_POST)) {
+//     echo 'in in data ';
+//     $testing = $_POST['db_data'];
+//     echo $testing;
+//     die();
+//   } else {
+//     echo ' fail';
+//   }
+//   die();
+// }
+
+
+
